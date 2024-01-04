@@ -23,7 +23,7 @@
     "ext-json": "*",
     "symfony/translation": "*",
     "symfony/filesystem": "*",
-    "symfony/http-client": "5.4.x-dev",
+    "symfony/http-client": "4.4.51",
     "nyholm/psr7": "^1.8@dev"
   },
   "require-dev": {
