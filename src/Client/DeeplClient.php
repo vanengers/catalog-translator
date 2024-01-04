@@ -23,7 +23,7 @@ class DeeplClient implements ITranslateClient
     public function translate(string $text, string $source, string $target): string
     {
         $source = $this->fromLocaleToIso($source);
-        $target = $this->fromLocaleToIso($source, true);
+        $target = $this->fromLocaleToIso($target, true);
         return $this->api->translateText($text, $source, $target);
     }
 
